@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEED</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="header">
+   <div class="container">
+       <div class="navbar">
+         <div class="logo">
+             <a href="index.html"><img src="images/FEED Designs/5.png" alt="logo" width="100px"></a>
+        </div>
+        <nav>
+        <ul id="MenuItems">
+            <li><a href="index.html">Home</a>
+                <ul class="dropdown">
+                    <li><a href="our-company.html">Our Company</a></li>
+                    <li><a href="meet-the-founders.html">Meet the Founders</a></li>
+                </ul>
+            </li>
+            <li><a href="https://gofund.me/5a9dad32">Donate</a></li>
+            <li>Projects
+                <ul class="dropdown">
+                    <li><a href="schoolspeaker.html">School Speakers</a></li>
+                    <li><a href="book.html">Children's Book</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+</div>
+</div>
+
+<!------our-company-page------>
+<h2 class="title">Our Company</h2>
+<div class="oc-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/FEED Designs/1.png" width="80%">
+            </div>
+            
+            <div class="col-2">
+                <div class="oc-container">
+                <h3>Setting the Scene</h3>
+                    <br>
+                    <p>
+Welcome to FEED! We're here to help. Since 2023, our team of eating disorder experts, recovered individuals, and anyone willing to get involved has made great strides in educating the youth about eating disorders.
+    <br>
+    <br>
+
+With FEED, we have traveled to schools around the country, delivered presentations, hosted card drives, hosted events, and authored books.
+    <br>
+    <br>
+
+Though we are proud of our achievements, our pride emerges from the people we have met along the way. Each smile, each "thank you," each new face is what motivates us to work every day, one step closer to recovery all over the world.
+    <br>
+    <br>
+                        
+Donate to the Future Educators of Eating Disorders today!
+</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------footer------>  
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>ABOUT US</h3>
+                    <ul>
+                        <li><a href="our-company.html">Our Company</a></li>
+                        <li><a href="meet-the-founders.html">Meet the Founders</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-col-2">
+                    <h3>USEFUL LINKS</h3>
+                     <ul>
+                        <li>Resources</li>
+                         <li><a href="https://gofund.me/5a9dad32">Donate</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-col-3">
+                    <h3>HELP</h3>
+                     <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                 <div class="footer-col-4">
+                    <h3>TEXT ME LATER!</h3>
+                     <ul>
+                        <li><a href="https://www.instagram.com/futureeducatorsofed/?utm_source=ig_web_button_share_sheet">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@futureeducatorsofed?_t=8qf0GcJIHfP&_r=1">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Future Educators of Eating Disorders</p>
+        </div>
+    </div>
+<!------js for toggle menu------>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px"; 
+                }
+        }
+    </script>
+
+</body>
+</html>
